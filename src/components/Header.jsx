@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css";
 import Logo from "./Logo";
+import SearchBar from "./SearchBar";
 
 function Header() {
   return (
@@ -8,6 +9,7 @@ function Header() {
       {/*{logo}*/}
       <Logo />
       {/*{search bar}*/}
+      <SearchBar />
       {/*{nav}*/}
     </header>
   );
