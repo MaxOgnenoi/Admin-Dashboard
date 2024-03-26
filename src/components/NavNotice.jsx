@@ -25,7 +25,7 @@ function NavNotice() {
           <div>
             <h4>Lorem Ipsum</h4>
             <p>qweqwe</p>
-            <p>dfdff</p>
+            <p>1 h. ago</p>
           </div>
         </li>
         <li>
@@ -36,7 +36,7 @@ function NavNotice() {
           <div>
             <h4>asdsaddd</h4>
             <p>asddd</p>
-            <p>grggg</p>
+            <p>2 h. ago</p>
           </div>
         </li>
         <li>
@@ -47,7 +47,7 @@ function NavNotice() {
           <div>
             <h4>asdsaddd</h4>
             <p>asddd</p>
-            <p>grggg</p>
+            <p>3 h. ago</p>
           </div>
         </li>
         <li>
@@ -59,7 +59,7 @@ function NavNotice() {
           <div>
             <h4>asdsaddd</h4>
             <p>asddd</p>
-            <p>grggg</p>
+            <p>4 h. ago</p>
           </div>
         </li>
         <li>
