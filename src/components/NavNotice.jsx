@@ -20,6 +20,55 @@ function NavNotice() {
         <li>
           <hr className="dropdown-divider" />
         </li>
+        <li className="notification-item">
+          <i className="bi bi-exclamation-circle text-warning"></i>
+          <div>
+            <h4>Lorem Ipsum</h4>
+            <p>qweqwe</p>
+            <p>dfdff</p>
+          </div>
+        </li>
+        <li>
+          <hr className="dropdown-divider" />
+        </li>
+        <li className="notification-item">
+          <i className="bi bi-x-circle text-danger"></i>
+          <div>
+            <h4>asdsaddd</h4>
+            <p>asddd</p>
+            <p>grggg</p>
+          </div>
+        </li>
+        <li>
+          <hr className="dropdown-divider" />
+        </li>
+        <li className="notification-item">
+          <i className="bi bi-check-circle text-success"></i>
+          <div>
+            <h4>asdsaddd</h4>
+            <p>asddd</p>
+            <p>grggg</p>
+          </div>
+        </li>
+        <li>
+          <hr className="dropdown-divider" />
+        </li>
+
+        <li className="notification-item">
+          <i className="bi bi-info-circle text-primary"></i>
+          <div>
+            <h4>asdsaddd</h4>
+            <p>asddd</p>
+            <p>grggg</p>
+          </div>
+        </li>
+        <li>
+          <hr className="dropdown-divider" />
+        </li>
+
+        <li className="dropdown-footer">
+          <a href="#">Show all notifications</a>
+        </li>
       </ul>
     </li>
   );
