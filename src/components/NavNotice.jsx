@@ -23,8 +23,8 @@ function NavNotice() {
         <li className="notification-item">
           <i className="bi bi-exclamation-circle text-warning"></i>
           <div>
-            <h4>Lorem Ipsum</h4>
-            <p>qweqwe</p>
+            <h4>Message 1</h4>
+            <p>Everything is great</p>
             <p>1 h. ago</p>
           </div>
         </li>
@@ -34,8 +34,8 @@ function NavNotice() {
         <li className="notification-item">
           <i className="bi bi-x-circle text-danger"></i>
           <div>
-            <h4>asdsaddd</h4>
-            <p>asddd</p>
+            <h4>Message 2</h4>
+            <p>Beautiful</p>
             <p>2 h. ago</p>
           </div>
         </li>
@@ -45,8 +45,8 @@ function NavNotice() {
         <li className="notification-item">
           <i className="bi bi-check-circle text-success"></i>
           <div>
-            <h4>asdsaddd</h4>
-            <p>asddd</p>
+            <h4>Message 3</h4>
+            <p>Amazing</p>
             <p>3 h. ago</p>
           </div>
         </li>
@@ -57,8 +57,8 @@ function NavNotice() {
         <li className="notification-item">
           <i className="bi bi-info-circle text-primary"></i>
           <div>
-            <h4>asdsaddd</h4>
-            <p>asddd</p>
+            <h4>Message 4</h4>
+            <p>Perfect</p>
             <p>4 h. ago</p>
           </div>
         </li>
