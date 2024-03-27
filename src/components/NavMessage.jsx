@@ -17,6 +17,9 @@ function NavMessage() {
             </span>
           </a>
         </li>
+        <li>
+          <hr className="dropdown-divider" />
+        </li>
       </ul>
     </li>
   );
