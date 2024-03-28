@@ -20,6 +20,24 @@ function NavMessage() {
         <li>
           <hr className="dropdown-divider" />
         </li>
+
+        <li className="message-item">
+          <a href="#">
+            <img
+              src="assets/img/messages-1.jpg"
+              alt=""
+              className="rounded-circle"
+            />
+            <div>
+              <h4>Maria Hudson</h4>
+              <p>Nice message from her.</p>
+              <p>4 hours ago</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <hr className="dropdown-divider" />
+        </li>
       </ul>
     </li>
   );
