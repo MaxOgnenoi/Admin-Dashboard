@@ -41,11 +41,29 @@ function NavAvatar() {
             href="users-profile.html"
           >
             <i className="bi bi-gear"></i>
-            <span>Account Settings</span>
+            <span>Account settings</span>
           </a>
         </li>
         <li>
           <hr className="dropdown-divider" />
+        </li>
+        <li>
+          <a
+            className="dropdown-item d-flex align-items-center"
+            href="pages-faq.html"
+          >
+            <i className="bi bi-question-circle"></i>
+            <span>Need help?</span>
+          </a>
+        </li>
+        <li>
+          <hr className="dropdown-divider" />
+        </li>
+        <li>
+          <a className="dropdown-item d-flex align-items-center" href="#">
+            <i className="bi bi-box-arrow-right"></i>
+            <span>Sign out</span>
+          </a>
         </li>
       </ul>
     </li>
