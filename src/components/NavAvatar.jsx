@@ -1,4 +1,5 @@
 import React from "react";
+import profileImg from "../images/user.jpg";
 
 function NavAvatar() {
   return (
@@ -9,8 +10,44 @@ function NavAvatar() {
         data-bs-toggle="dropdown"
       >
         <img src={profileImg} alt="Profile" className="rounded-circle" />
-        <span className="d-none d-md-block dropdown-toggle ps-2">F. David</span>
+        <span className="d-none d-md-block dropdown-toggle ps-2">O. Max</span>
       </a>
+
+      <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+        <li className="dropdown-header">
+          <h6>Max</h6>
+          <span>Web Developer</span>
+        </li>
+        <li>
+          <hr className="dropdown-divider" />
+        </li>
+
+        <li>
+          <a
+            className="dropdown-item d-flex align-items-center"
+            href="users-profile.html"
+          >
+            <i className="bi bi-person"></i>
+            <span>My profile</span>
+          </a>
+        </li>
+        <li>
+          <hr className="dropdown-divider" />
+        </li>
+
+        <li>
+          <a
+            className="dropdown-item d-flex align-items-center"
+            href="users-profile.html"
+          >
+            <i className="bi bi-gear"></i>
+            <span>Account Settings</span>
+          </a>
+        </li>
+        <li>
+          <hr className="dropdown-divider" />
+        </li>
+      </ul>
     </li>
   );
 }
