@@ -23,6 +23,18 @@ function SideBar() {
           <span>Documents</span>
           <i className="bi bi-chevron-down ms-auto"></i>
         </a>
+        <ul
+          id="components-nav"
+          className="nav-content collapse"
+          data-bs-parent="#sidebar-nav"
+        >
+          <li>
+            <a href="#">
+              <i className="bi bi-circle"></i>
+              <span>Customers</span>
+            </a>
+          </li>
+        </ul>
       </li>
     </ul>
   </aside>;
