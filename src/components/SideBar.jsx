@@ -1,12 +1,9 @@
-import React from 'react'
-import './sideBar.css'
+import React from "react";
+import "./sideBar.css";
 
 function SideBar() {
-  return (
-    <div>
-      
-    </div>
-  )
+  return;
+  <aside id="sideBar" className="sidebar"></aside>;
 }
 
-export default SideBar
+export default SideBar;
