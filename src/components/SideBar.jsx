@@ -48,6 +48,30 @@ function SideBar() {
           </li>
         </ul>
       </li>
+      <li className="nav-item">
+        <a
+          className="nav-link collapsed"
+          data-bs-target="#forms-nav"
+          data-bs-toggle="collapse"
+          href="#"
+        >
+          <i className="bi bi-journal-text"></i>
+          <span>Forms</span>
+          <i className="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul
+          id="forms-nav"
+          className="nav-content collapse"
+          data-bs-parent="#sidebar-nav"
+        >
+          <li>
+            <a href="#">
+              <i className="bi bi-circle"></i>
+              <span>Application Form</span>
+            </a>
+          </li>
+        </ul>
+      </li>
     </ul>
   </aside>;
 }
