@@ -70,6 +70,18 @@ function SideBar() {
               <span>Application Form</span>
             </a>
           </li>
+          <li>
+            <a href="#">
+              <i className="bi bi-circle"></i>
+              <span>Release Form</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i className="bi bi-circle"></i>
+              <span>Cancellation Form</span>
+            </a>
+          </li>
         </ul>
       </li>
     </ul>
