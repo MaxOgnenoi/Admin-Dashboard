@@ -34,6 +34,18 @@ function SideBar() {
               <span>Customers</span>
             </a>
           </li>
+          <li>
+            <a href="#">
+              <i className="bi bi-circle"></i>
+              <span>Suppliers</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i className="bi bi-circle"></i>
+              <span>Logistic</span>
+            </a>
+          </li>
         </ul>
       </li>
     </ul>
