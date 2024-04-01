@@ -114,6 +114,18 @@ function SideBar() {
             </li>
           </ul>
         </li>
+        <li className="nav-item">
+          <a
+            className="nav-link collapsed"
+            data-bs-target="#charts-nav"
+            data-bs-toggle="collapse"
+            href="#"
+          >
+            <i className="bi bi-bar-chart"></i>
+            <span>Charts</span>
+            <i className="bi bi-chevron-down ms-auto"></i>
+          </a>
+        </li>
       </ul>
     </aside>
   );
