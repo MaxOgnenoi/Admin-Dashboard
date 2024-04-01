@@ -95,6 +95,24 @@ function SideBar() {
             <span>Tables</span>
             <i className="bi bichevron-down ms-auto"></i>
           </a>
+          <ul
+            id="tables-nav"
+            className="nav-content collapse"
+            data-bs-parent="#sidebar-nav"
+          >
+            <li>
+              <a href="#">
+                <i className="bi bi-circle"></i>
+                <span>General Tables</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i className="bi bi-circle"></i>
+                <span>Data Tables</span>
+              </a>
+            </li>
+          </ul>
         </li>
       </ul>
     </aside>
