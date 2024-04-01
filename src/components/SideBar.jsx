@@ -84,6 +84,18 @@ function SideBar() {
             </li>
           </ul>
         </li>
+        <li className="nav-item">
+          <a
+            className="mav-link collapse"
+            data-bs-target="#tables-nav"
+            data-bs-toggle="collapse"
+            href="#"
+          >
+            <i className="bi bi-layout-text-window-reverse"></i>
+            <span>Tables</span>
+            <i className="bi bichevron-down ms-auto"></i>
+          </a>
+        </li>
       </ul>
     </aside>
   );
