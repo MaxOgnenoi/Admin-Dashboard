@@ -85,3 +85,8 @@
     margin-right: 10px;
     color: #4143f1;
 }
+
+.sidebar-nav .nav-link.collapsed {
+    color: #012970;
+    background: #fff;
+}
