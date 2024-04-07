@@ -80,6 +80,18 @@
     margin: 10px 0 5px 15px;
 }
 
+.sidebar-nav .nav-link {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #4154f1;
+    transition: 0.3s;
+    background: #f6f9ff;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
 .sidebar-nav .nav-link i {
     font-size: 16px;
     margin-right: 10px;
@@ -89,4 +101,17 @@
 .sidebar-nav .nav-link.collapsed {
     color: #012970;
     background: #fff;
+}
+
+.sidebar-nav .nav-link.collapsed i {
+    color: #899bbd;
+}
+
+.sidebar-nav .nav-link:hover {
+    color: #4154f1;
+    background: #f6f9ff;
+}
+
+.sidebar-nav .nav-link:hover i {
+    color: #4154f1;
 }
