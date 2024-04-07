@@ -1,5 +1,6 @@
 import React from "react";
 import "./sideBar.css";
+import navList from "../data/navitem";
 
 function SideBar() {
   return (
@@ -126,6 +127,15 @@ function SideBar() {
             <i className="bi bi-chevron-down ms-auto"></i>
           </a>
         </li>
+        <li className="nav-heading">Pages</li>
+        {navList.map((nav) => {
+          <li className="nav-item" key={nav._id}>
+            <a className="nav-link collapsed" href="#">
+              <i className={nav.icon}></i>
+              <span>{nav.name}</span>
+            </a>
+          </li>;
+        })}
       </ul>
     </aside>
   );
