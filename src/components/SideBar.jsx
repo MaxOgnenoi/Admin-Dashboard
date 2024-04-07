@@ -1,6 +1,7 @@
 import React from "react";
 import "./sideBar.css";
 import navList from "../data/navitem";
+import NavItem from "./NavItem";
 
 function SideBar() {
   return (
@@ -126,16 +127,71 @@ function SideBar() {
             <span>Charts</span>
             <i className="bi bi-chevron-down ms-auto"></i>
           </a>
+          <ul
+            id="charts-nav"
+            className="nav-content collapse"
+            data-bs-parent="#sidebar-nav"
+          >
+            <li>
+              <a href="#">
+                <i className="bi bi-circle"></i>
+                <span>Chart.js</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i className="bi bi-circle"></i>
+                <span>ApexCharts</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i className="bi bi-circle"></i>
+                <span>ECharts</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li className="nav-item">
+          <a
+            className="nav-link collapsed"
+            data-bs-target="#icons-nav"
+            data-bs-toggle="collapse"
+            href="#"
+          >
+            <i className="bi bi-gem"></i>
+            <span>Icons</span>
+            <i className="bi bi-chevron-down ms-auto"></i>
+          </a>
+          <ul
+            id="icons-nav"
+            className="nav-content collapse"
+            data-bs-parent="#sidebar-nav"
+          >
+            <li>
+              <a href="#">
+                <i className="bi bi-circle"></i>
+                <span>Bootstrap Icons</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i className="bi bi-circle"></i>
+                <span>Remix Icons</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i className="bi bi-circle"></i>
+                <span>Boxicons</span>
+              </a>
+            </li>
+          </ul>
         </li>
         <li className="nav-heading">Pages</li>
-        {navList.map((nav) => {
-          <li className="nav-item" key={nav._id}>
-            <a className="nav-link collapsed" href="#">
-              <i className={nav.icon}></i>
-              <span>{nav.name}</span>
-            </a>
-          </li>;
-        })}
+        {navList.map((nav) => (
+          <NavItem key={nav._id} nav={nav} />
+        ))}
       </ul>
     </aside>
   );
