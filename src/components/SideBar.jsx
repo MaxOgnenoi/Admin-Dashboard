@@ -1,6 +1,6 @@
 import React from "react";
 import "./sideBar.css";
-import navList from "../data/navitem";
+import navList from "../data/navItem";
 import NavItem from "./NavItem";
 
 function SideBar() {
@@ -18,7 +18,7 @@ function SideBar() {
           <a
             className="nav-link collapsed"
             data-bs-target="#components-nav"
-            data-bs-toggle="cpllapse"
+            data-bs-toggle="collapse"
             href="#"
           >
             <i className="bi bi-menu-button-wide"></i>
@@ -88,14 +88,14 @@ function SideBar() {
         </li>
         <li className="nav-item">
           <a
-            className="mav-link collapse"
+            className="nav-link collapse"
             data-bs-target="#tables-nav"
             data-bs-toggle="collapse"
             href="#"
           >
             <i className="bi bi-layout-text-window-reverse"></i>
             <span>Tables</span>
-            <i className="bi bichevron-down ms-auto"></i>
+            <i className="bi bi-chevron-down ms-auto"></i>
           </a>
           <ul
             id="tables-nav"
