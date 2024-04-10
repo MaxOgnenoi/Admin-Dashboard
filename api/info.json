@@ -32,6 +32,50 @@
       "title": "Title 1",
       "subtitle": "Subtitle 1",
       "category": "abc"
+    },
+    {
+      "_id": 2,
+      "img": "../assets/items/news-2.jpg",
+      "title": "Title 2",
+      "subtitle": "Subtitle 2",
+      "category": "abc"
+    },
+    {
+      "_id": 3,
+      "img": "../assets/items/news-3.jpg",
+      "title": "Title 3",
+      "subtitle": "Subtitle 3",
+      "category": "abc"
+    },
+    {
+      "_id": 4,
+      "img": "../assets/items/news-4.jpg",
+      "title": "Title 4",
+      "subtitle": "Subtitle 4",
+      "category": "abc"
+    },
+    {
+      "_id": 5,
+      "img": "../assets/items/news-5.jpg",
+      "title": "Title 5",
+      "subtitle": "Subtitle 5",
+      "category": "abc"
+    }
+  ],
+  "topselling": [
+    {
+      "_id": 1,
+      "preview": "../assets/items/product-1.jpg",
+      "name": "Name #1",
+      "price": 64,
+      "sold": 124
+    },
+    {
+      "_id": 2,
+      "preview": "../assets/items/product-2.jpg",
+      "name": "Name #2",
+      "price": 46,
+      "sold": 98
     }
   ]
 }
