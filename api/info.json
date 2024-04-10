@@ -76,6 +76,113 @@
       "name": "Name #2",
       "price": 46,
       "sold": 98
+    },
+    {
+      "_id": 3,
+      "preview": "../assets/items/product-3.jpg",
+      "name": "Name #3",
+      "price": 64,
+      "sold": 124
+    },
+    {
+      "_id": 4,
+      "preview": "../assets/items/product-4.jpg",
+      "name": "Name #14",
+      "price": 59,
+      "sold": 75
+    },
+    {
+      "_id": 5,
+      "preview": "../assets/items/product-5.jpg",
+      "name": "Name #5",
+      "price": 43,
+      "sold": 63
+    }
+  ],
+  "recentsales": [
+    {
+      "_id": 1,
+      "number": "#2457",
+      "customer": "Brandon Jacob",
+      "product": "Basket of champagne",
+      "price": 64,
+      "status": "Approved"
+    },
+    {
+      "_id": 2,
+      "number": "#2147",
+      "customer": "Bridie Kessler",
+      "product": "Wedding dresses",
+      "price": 47,
+      "status": "Pending"
+    },
+    {
+      "_id": 3,
+      "number": "#2049",
+      "customer": "Ashleight Langosh",
+      "product": "Tires summer season",
+      "price": 250,
+      "status": "Approved"
+    },
+    {
+      "_id": 4,
+      "number": "#2644",
+      "customer": "Angus Grady",
+      "product": "12 pounds of steaks",
+      "price": 98,
+      "status": "Rejected"
+    },
+    {
+      "_id": 5,
+      "number": "#3592",
+      "customer": "Raheem Lehner",
+      "product": "Strawberries",
+      "price": 9,
+      "status": "Approved"
+    }
+  ],
+  "recentactivity": [
+    {
+      "_id": 1,
+      "time": "32 min",
+      "color": "text-success",
+      "content": "Very interesting content 1",
+      "highlight": "highlight 1"
+    },
+    {
+      "_id": 2,
+      "time": "2 hours",
+      "color": "text-danger",
+      "content": "Very interesting content 2",
+      "highlight": "highlight 2"
+    },
+    {
+      "_id": 3,
+      "time": "10 hours",
+      "color": "text-primary",
+      "content": "Very interesting content 3",
+      "highlight": "highlight 3"
+    },
+    {
+      "_id": 4,
+      "time": "2 days",
+      "color": "text-info",
+      "content": "Very interesting content 4",
+      "highlight": "highlight 4"
+    },
+    {
+      "_id": 5,
+      "time": "4 weeks",
+      "color": "text-warning",
+      "content": "Very interesting content 5",
+      "highlight": "highlight 5"
+    },
+    {
+      "_id": 6,
+      "time": "4 weeks",
+      "color": "text-muted",
+      "content": "Very interesting content 6",
+      "highlight": "highlight 6"
     }
   ]
 }
