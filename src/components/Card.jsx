@@ -10,6 +10,7 @@ function Card({ card }) {
             {card.name}
             <span>| {filter}</span>
           </h5>
+          <div className="d-flex align-items-center"></div>
         </div>
       </div>
     </div>
