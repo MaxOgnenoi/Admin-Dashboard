@@ -14,6 +14,13 @@ function Card({ card }) {
             <div className="card-icon rounded-circle d-flex align-items-center justify-content-center">
               <i className={card.icon}></i>
             </div>
+            <div className="ps-3">
+              <h6>
+                {card.name === "Revenue"
+                  ? "$" + card.amount.toLocaleString("en-US")
+                  : card.amount.toLocaleString("en-US")}
+              </h6>
+            </div>
           </div>
         </div>
       </div>
