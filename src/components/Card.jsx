@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Card({ card }) {
+  const [filter, setFilter] = useState("Today");
+  const handleFilterChange = (filter) => {
+    setFilter(filter);
+  };
   return (
     <div className="col-xxl-4 col-md-6">
       <div className="card info-card sales-card">
@@ -24,7 +28,15 @@ function Card({ card }) {
                 className={`${
                   card.percentage > 0 ? "text-success" : "text-danger"
                 } small pt-1 fw-bold`}
-              ></span>
+              >
+                {card.percentage > 0
+                  ? card.percentage * 100
+                  : -card.percentage * 100}{" "}
+                %
+              </span>
+              <span className="text-muted small pt-2 ps-1">
+                {card.percentage > 0 ? "increase" : "decrease"}
+              </span>
             </div>
           </div>
         </div>
