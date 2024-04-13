@@ -14,7 +14,7 @@ function Card({ card }) {
         <div className="card-body">
           <h5 className="card-title">
             {card.name}
-            <span>| {filter}</span>
+            <span> | {filter}</span>
           </h5>
           <div className="d-flex align-items-center">
             <div className="card-icon rounded-circle d-flex align-items-center justify-content-center">
