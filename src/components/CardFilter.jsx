@@ -18,7 +18,7 @@ function CardFilter({ filterChange }) {
         <li>
           <a
             className="dropdown-item"
-            onClick={() => filterChange("Tjis Month")}
+            onClick={() => filterChange("This Month")}
           >
             This Month
           </a>
