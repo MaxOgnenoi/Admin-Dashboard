@@ -64,7 +64,14 @@ function ReportCharts() {
       },
     },
   });
-  return <div>ReportCharts</div>;
+  return (
+    <Chart
+      options={data.options}
+      series={data.series}
+      type={data.options.chart.type}
+      height={data.options.chart.height}
+    />
+  );
 }
 
 export default ReportCharts;

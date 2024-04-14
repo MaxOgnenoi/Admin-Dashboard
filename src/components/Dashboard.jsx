@@ -29,6 +29,7 @@ function Dashboard() {
             <div className="col-12">
               <Reports />
             </div>
+            <div className="col-12"></div>
           </div>
         </div>
         <div className="col=lg-4"></div>
