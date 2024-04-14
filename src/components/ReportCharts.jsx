@@ -38,9 +38,33 @@ function ReportCharts() {
           stops: [0, 90, 100],
         },
       },
+      dataLabels: {
+        enabled: false,
+      },
+      stroke: {
+        curve: "smooth",
+        width: 2,
+      },
+      xaxis: {
+        type: "datetime",
+        categories: [
+          "2024-02-19T00:00:00.000Z",
+          "2024-02-19T01:30:00.000Z",
+          "2024-02-19T02:30:00.000Z",
+          "2024-02-19T03:30:00.000Z",
+          "2024-02-19T04:30:00.000Z",
+          "2024-02-19T05:30:00.000Z",
+          "2024-02-19T06:30:00.000Z",
+        ],
+      },
+      tooltop: {
+        x: {
+          format: "dd/MM/yy HH:mm",
+        },
+      },
     },
   });
-  return <div></div>;
+  return <div>ReportCharts</div>;
 }
 
 export default ReportCharts;
