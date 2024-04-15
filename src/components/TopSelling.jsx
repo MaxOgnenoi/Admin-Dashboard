@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./topSelling.css";
+import CardFilter from "./CardFilter";
 
 function TopSelling() {
   const [items, setItems] = useState([]);
@@ -19,7 +20,27 @@ function TopSelling() {
   useEffect(() => {
     fetchData();
   }, []);
-  return <div></div>;
+  return (
+    <div className="card top-selling overflow-auto">
+      <CardFilter filterChange={handleFilterChange} />
+      <div className="card-body pb-0">
+        <h5 className="card-title">
+          Top Selling <span> | {filter}</span>
+        </h5>
+        <table className="table table-borderless">
+          <thead className="table-light">
+            <tr>
+              <th scope="col">Preview</th>
+              <th scope="col">Product</th>
+              <th scope="col">Price</th>
+              <th scope="col">Sold</th>
+              <th scope="col">Revenue</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+    </div>
+  );
 }
 
 export default TopSelling;
