@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./topSelling.css";
 import CardFilter from "./CardFilter";
+import TopSellingItem from "./TopSellingItem";
 
 function TopSelling() {
   const [items, setItems] = useState([]);
@@ -37,6 +38,13 @@ function TopSelling() {
               <th scope="col">Revenue</th>
             </tr>
           </thead>
+          <tbody>
+            {items &&
+              items.length > 0 &&
+              items.map((item) => (
+                <TopSellingItem key={item._id} item={item} />
+              ))}
+          </tbody>
         </table>
       </div>
     </div>
