@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./recentActivity.css";
 import CardFilter from "./CardFilter";
 import RecentActivityItem from "./RecentActivityItem";
 
