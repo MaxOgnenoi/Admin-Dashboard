@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import CardFilter from "./CardFilter";
+import RecentActivityItem from "./RecentActivityItem";
 
 function RecentActivity() {
   const [items, setItems] = useState([]);
