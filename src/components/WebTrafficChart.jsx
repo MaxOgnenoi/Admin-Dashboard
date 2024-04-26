@@ -21,6 +21,22 @@ function WebTrafficChart() {
             show: false,
             position: "center",
           },
+          emphasis: {
+            label: {
+              show: true,
+              fontSize: "18",
+              fontWeight: "bold",
+            },
+          },
+          labelLine: {
+            show: false,
+          },
+          data: [
+            {
+              value: 1048,
+              name: "Search Engine",
+            },
+          ],
         },
       ],
     });
