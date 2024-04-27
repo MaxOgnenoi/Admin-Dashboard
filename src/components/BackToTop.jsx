@@ -14,7 +14,18 @@ function BackToTop() {
       });
     };
   }, [scroll]);
-  return <div></div>;
+
+  
+  return (
+    <a
+      onClick={BackToTop}
+      className={`back-to-top d-flex align-items-center justify-content-center ${
+        scroll > 100 ? "active" : undefined
+      }`}
+    >
+      <i className="bi bi-arrow-up-short"></i>
+    </a>
+  );
 }
 
 export default BackToTop;
