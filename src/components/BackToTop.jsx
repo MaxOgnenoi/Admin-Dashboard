@@ -15,10 +15,13 @@ function BackToTop() {
     };
   }, [scroll]);
 
-  
+  const backToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <a
-      onClick={BackToTop}
+      onClick={backToTop}
       className={`back-to-top d-flex align-items-center justify-content-center ${
         scroll > 100 ? "active" : undefined
       }`}
