@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./dashboard.css";
-import Card from "./Card";
+import Cards from "./Cards";
 import Reports from "./Reports";
 import RecentSales from "./RecentSales";
 import TopSelling from "./TopSelling";
@@ -10,28 +10,12 @@ import WebTraffic from "./WebTraffic";
 import News from "./News";
 
 function Dashboard() {
-  const [cards, setCards] = useState([]);
-  const fetchData = () => {
-    fetch("http://localhost:4000/cards")
-      .then((res) => res.json())
-      .then((data) => {
-        setCards(data);
-      })
-      .catch((e) => console.log(e.message));
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
-
   return (
     <section className="dashboard section">
       <div className="row">
         <div className="col-lg-8">
           <div className="row">
-            {cards &&
-              cards.length > 0 &&
-              cards.map((card) => <Card key={card._id} card={card} />)}
+            <Cards />
             <div className="col-12">
               <Reports />
             </div>
@@ -43,7 +27,7 @@ function Dashboard() {
             </div>
           </div>
         </div>
-        <div className="col=lg-4">
+        <div className="col-lg-4">
           <RecentActivity />
           <BudgetReport />
           <WebTraffic />
