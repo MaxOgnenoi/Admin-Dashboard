@@ -1,71 +1,73 @@
-# Getting Started with Create React App
+<!DOCTYPE html>
+<html lang="en">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React Admin Dashboard</title>
+</head>
 
-## Available Scripts
+<body>
+  <h1>React Admin Dashboard</h1>
+  <p>Welcome to the React Admin Dashboard project! This tutorial aims to guide you through building a powerful and responsive
+    admin dashboard using React JS, Bootstrap 5, and JSON server. Whether you're new to React or looking to enhance your
+    skills, this project provides valuable insights into creating robust admin interfaces.</p>
 
-In the project directory, you can run:
+  <h2>Features</h2>
+  <ul>
+    <li>Responsive Admin Dashboard design</li>
+    <li>React Admin Dashboard with dynamic data mapping</li>
+    <li>React Graphs and Charts (eChart, APEXCHARTS)</li>
+    <li>Animated Side Menu and Navigation</li>
+    <li>Bootstrap Cards Design</li>
+    <li>Data fetching from mock API using JSON server</li>
+  </ul>
 
-### `npm start`
+  <h2>Getting Started</h2>
+  <h3>Prerequisites</h3>
+  <ul>
+    <li>Your preferred code editor (e.g., Visual Studio Code)</li>
+    <li>Node.js and npm installed on your machine</li>
+  </ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <h3>Installation</h3>
+  <ol>
+    <li>Clone the repo</li>
+    <code>git clone https://github.com/your_username/your_repo.git</code>
+    <li>Install NPM packages</li>
+    <code>npm install</code>
+    <li>Start the JSON server</li>
+    <code>json-server --watch --port 4000 ./api/info.json</code>
+    <li>Start the React app</li>
+    <code>npm start</code>
+  </ol>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <h2>Usage</h2>
+  <ol>
+    <li>Navigate to <code>http://localhost:3000</code> in your browser to view the dashboard.</li>
+    <li>Use the animated side menu to navigate between different sections of the dashboard.</li>
+    <li>Explore the dynamic data mapping and Bootstrap cards design for an intuitive user interface.</li>
+  </ol>
 
-### `npm test`
+  <h2>Contributing</h2>
+  <p>Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions
+    you make are greatly appreciated.</p>
+  <ol>
+    <li>Fork the project.</li>
+    <li>Create your feature branch (<code>git checkout -b feature/AmazingFeature</code>).</li>
+    <li>Commit your changes (<code>git commit -m 'Add some AmazingFeature'</code>).</li>
+    <li>Push to the branch (<code>git push origin feature/AmazingFeature</code>).</li>
+    <li>Open a pull request.</li>
+  </ol>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <h2>License</h2>
+  <p>Distributed under the MIT License. See <code>LICENSE</code> for more information.</p>
 
-### `npm run build`
+  <h2>Contact</h2>
+  <p>Your Name - <a href="https://twitter.com/your_twitter">Twitter</a> - <a href="mailto:email@example.com">email@example.com</a></p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <p>Project Link: <a href="https://github.com/your_username/your_repo">https://github.com/your_username/your_repo</a></p>
+</body>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Admin-Dashboard
+</html>

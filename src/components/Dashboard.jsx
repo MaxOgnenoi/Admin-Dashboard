@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./dashboard.css";
 import Cards from "./Cards";
 import Reports from "./Reports";
