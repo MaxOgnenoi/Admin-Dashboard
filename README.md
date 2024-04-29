@@ -5,14 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>React Admin Dashboard</title>
+  
 </head>
 
 <body>
   <h1>React Admin Dashboard</h1>
-  <p>Welcome to the React Admin Dashboard project! This tutorial aims to guide you through building a powerful and responsive
-    admin dashboard using React JS, Bootstrap 5, and JSON server. Whether you're new to React or looking to enhance your
-    skills, this project provides valuable insights into creating robust admin interfaces.</p>
+  <p>Welcome to the React Admin Dashboard project! This project showcases a powerful and responsive admin dashboard using React JS, Bootstrap 5, and JSON server. It demonstrates my skills in building robust admin interfaces and is designed to be a sample project for reference and inspiration.</p>
 
   <h2>Features</h2>
   <ul>
@@ -64,10 +62,6 @@
   <h2>License</h2>
   <p>Distributed under the MIT License. See <code>LICENSE</code> for more information.</p>
 
-  <h2>Contact</h2>
-  <p>Your Name - <a href="https://twitter.com/your_twitter">Twitter</a> - <a href="mailto:email@example.com">email@example.com</a></p>
-
-  <p>Project Link: <a href="https://github.com/your_username/your_repo">https://github.com/your_username/your_repo</a></p>
 </body>
 
 </html>
