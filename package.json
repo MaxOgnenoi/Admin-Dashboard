@@ -11,6 +11,8 @@
     "bootstrap-icons": "^1.11.3",
     "boxicons": "^2.1.4",
     "echarts": "^5.5.0",
+    "express": "^4.19.2",
+    "json-server": "^1.0.0-alpha.23",
     "react": "^18.2.0",
     "react-apexcharts": "^1.4.1",
     "react-dom": "^18.2.0",
@@ -19,7 +21,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently \"node server.js\" \"json-server --watch --port 4000 ./api/info.json\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
