@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./topSelling.css";
 import CardFilter from "./CardFilter";
 import TopSellingItem from "./TopSellingItem";
